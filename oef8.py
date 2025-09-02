@@ -5,5 +5,5 @@ woord = "matplotlib"
 frequentie = Counter(woord)
 print(frequentie)
 
-plt.bar(str(frequentie),int(frequentie))
+plt.bar(list(frequentie.keys()),list(frequentie.values()))
 plt.show()
